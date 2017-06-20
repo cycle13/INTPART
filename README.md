@@ -1,7 +1,7 @@
 # INTPART Arctic Field Summer School (UiT)
 Norway-Canada-USA collaboration (NFR project 261786/H30)
 
-#####Under construction... ```[Python 2.7]```
+##### Under construction... ```[Python 2.7]```
 
 ## Contact
 Zachary Labe - [Research Website](http://sites.uci.edu/zlabe/) - [@ZLabe](https://twitter.com/ZLabe)
