@@ -10,9 +10,9 @@ Zachary Labe - [Research Website](http://sites.uci.edu/zlabe/) - [@ZLabe](https:
 Sea ice observations were taken from a one-week field school on board the R/V Lance, which traveled to the marginal ice zone northwest of Longyearbyen, Svalbard in May of 2017 (18-24th). Analysis validates in situ observations with the high-resolution AMSR2 (UAH 3.125 km) sea ice concentration product.
 
 ## Data
-sea ice concentration (SIC) - AMSR2 (ASI 3.125 km, UAH-processed)
+```sea ice concentration (SIC)``` - AMSR2 (ASI 3.125 km, UAH-processed)
 
-References...
+##### References...
 
 Beitsch, A.; Kaleschke, L.; Kern, S. Investigating High-Resolution AMSR2 Sea Ice Concentrations during the February 2013 Fracture Event in the Beaufort Sea. Remote Sens. 2014, 6, 3841-3856, doi:10.3390/rs6053841
 
