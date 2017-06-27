@@ -124,8 +124,8 @@ plt.xticks(np.arange(6,13,1),map(str,np.arange(6,13,1)),
 plt.xlim([6,12])
 plt.ylim([78.8,80.40001])
            
-plt.xlabel(r'\textbf{Longitude}',fontsize=11)
-plt.ylabel(r'\textbf{Latitude}',fontsize=11)
+plt.xlabel(r'\textbf{Longitude [$^\circ$E]}',fontsize=11)
+plt.ylabel(r'\textbf{Latitude [$^\circ$N]}',fontsize=11)
 
 plt.legend(shadow=False,fontsize=11,loc='center',
                        fancybox=True,ncol=4,bbox_to_anchor=(0.123,0.05),
