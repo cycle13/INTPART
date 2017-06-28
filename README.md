@@ -10,8 +10,8 @@ Zachary Labe - [Research Website](http://sites.uci.edu/zlabe/) - [@ZLabe](https:
 Sea ice observations were taken from a one-week field school on board the R/V Lance, which traveled to the marginal ice zone northwest of Longyearbyen, Svalbard in May of 2017 (18-24th). Analysis validates in situ observations with the high-resolution AMSR2 (UAH 3.125 km) sea ice concentration product.
 
 ## Data
-```sea ice concentration (SIC)``` - AMSR2 (ASI 3.125 km, UAH-processed)
-```sea ice extent (SIE)``` - NSIDC (Sea Ice Index, Version 2)
++ ```sea ice concentration (SIC)``` - AMSR2 (ASI 3.125 km, UAH-processed)
++ ```sea ice extent (SIE)``` - NSIDC (Sea Ice Index, Version 2)
 
 ##### References...
 
