@@ -11,10 +11,13 @@ Sea ice observations were taken from a one-week field school on board the R/V La
 
 ## Data
 ```sea ice concentration (SIC)``` - AMSR2 (ASI 3.125 km, UAH-processed)
+```sea ice extent (SIE)``` - NSIDC (Sea Ice Index, Version 2)
 
 ##### References...
 
 Beitsch, A.; Kaleschke, L.; Kern, S. Investigating High-Resolution AMSR2 Sea Ice Concentrations during the February 2013 Fracture Event in the Beaufort Sea. Remote Sens. 2014, 6, 3841-3856, doi:10.3390/rs6053841
+
+Fetterer, F., K. Knowles, W. Meier, M. Savoie, and A. Windnagel. 2016, updated daily. Sea Ice Index, Version 2. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: http://dx.doi.org/10.7265/N5736NV7
 
 Kaleschke, L. and X. Tian-Kunze (2016), "AMSR2 ASI 3.125 km Sea Ice Concentration Data, 
 V0.1", Institute of Oceanography, University of Hamburg, Germany, digital media 
