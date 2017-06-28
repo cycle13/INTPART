@@ -88,7 +88,8 @@ for i in xrange(sieall.shape[0]):
     c=next(color)
     plt.plot(sieall[i],linewidth=0.9,color=c,alpha=1)
 
-plt.plot(np.nanmean(sieall,axis=0),linewidth=3,color='k',linestyle='-') 
+plt.plot(np.nanmean(sieall[3:-7,:],axis=0),linewidth=3,color='k',
+         linestyle='-') 
 plt.plot(sieall[-1],linewidth=2.3,color='r',linestyle='-')   
 
 xlabels = [r'Jan',r'Feb',r'Mar',r'Apr',r'May',r'Jun',r'Jul',
