@@ -128,7 +128,7 @@ plt.xlabel(r'\textbf{Longitude [$^\circ$E]}',fontsize=11)
 plt.ylabel(r'\textbf{Latitude [$^\circ$N]}',fontsize=11)
 
 plt.legend(shadow=False,fontsize=11,loc='center',
-                       fancybox=True,ncol=4,bbox_to_anchor=(0.123,0.05),
+                       fancybox=True,ncol=4,bbox_to_anchor=(0.45,1.001),
                         frameon=False)
 
 ###########################################################################
@@ -159,8 +159,36 @@ cbar = plt.colorbar(cs,orientation='bottom',
 labels = map(str,np.arange(0,101,10))
 cbar.ax.set_xticklabels(labels,fontsize=7)
 cbar.ax.tick_params(axis='x', size=.01)
-cbar.set_label(r'\textbf{Sea Ice Concentration}',fontsize=8,
+cbar.set_label(r'\textbf{Sea Ice Concentration (SIC)}',fontsize=8,
                color='darkgrey')
+cbar.outline.set_edgecolor('darkgrey')
+cbar.outline.set_linewidth(0.5)
+
+###########################################################################
+a = plt.axes([.16, .2, .25, .3], axisbg='w')
+for axis in ['top','bottom','left','right']:
+  a.spines[axis].set_linewidth(2)
+  a.spines[axis].set_color('darkgrey')
+a.tick_params('both',length=4,width=2,which='major',color='darkgrey')
+a.set_axis_bgcolor('w')
+
+plt.plot(sicq*10,linestyle='-',color='indigo',
+         linewidth=2,zorder=1)
+plt.fill_between(np.arange(sicq.shape[0]),0,sicq*10., color='indigo', alpha=1)
+            
+plt.yticks(np.arange(0,110,20),map(str,np.arange(0,110,20)),
+           rotation=0,fontsize=6)
+plt.xticks(np.arange(0,70,12),map(str,np.arange(19,25,1)),
+           rotation=0,fontsize=6)
+a.tick_params(axis='x',direction='out')
+a.tick_params(axis='y',direction='out')
+plt.xlim([0,60])
+plt.ylim([0,100])
+
+plt.text(64,-5,r'\textbf{May}',fontsize=10,color='darkgrey')
+plt.text(0,110,r'\textbf{SIC}',fontsize=10,color='darkgrey',ha='center',
+         va='center')
+
 cbar.outline.set_edgecolor('darkgrey')
 cbar.outline.set_linewidth(0.5)
 
