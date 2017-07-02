@@ -1,0 +1,230 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{\textit{Andersen et~al.}(2007)\textit{Andersen, Tonboe, Kaleschke,
+  Heygster, and Pedersen}}]{Andersen2007}
+Andersen, S., R.~Tonboe, L.~Kaleschke, G.~Heygster, and L.~T. Pedersen (2007),
+  {Intercomparison of passive microwave sea ice concentration retrievals over
+  the high-concentration Arctic sea ice}, \textit{Journal of Geophysical
+  Research}, \textit{112}(C8), C08,004, \doi{10.1029/2006JC003543}.
+
+\bibitem[{\textit{Beitsch et~al.}(2014)\textit{Beitsch, Kaleschke, and
+  Kern}}]{Beitsch2014}
+Beitsch, A., L.~Kaleschke, and S.~Kern (2014), {Investigating High-Resolution
+  AMSR2 Sea Ice Concentrations during the February 2013 Fracture Event in the
+  Beaufort Sea}, \textit{Remote Sensing}, \textit{6}(5), 3841--3856,
+  \doi{10.3390/rs6053841}.
+
+\bibitem[{\textit{Bunzel et~al.}(2016)\textit{Bunzel, Notz, Baehr, Muller, and
+  Frohlich}}]{Bunzel2016}
+Bunzel, F., D.~Notz, J.~Baehr, W.~A. Muller, and K.~Frohlich (2016), {Seasonal
+  climate forecasts significantly affected by observational uncertainty of
+  Arctic sea ice concentration}, \textit{Geophysical Research Letters},
+  \textit{43}(2), 852--859, \doi{10.1002/2015GL066928}.
+
+\bibitem[{\textit{Cavalieri et~al.}(1984)\textit{Cavalieri, Gloersen, and
+  Campbell}}]{Cavalieri1984}
+Cavalieri, D.~J., P.~Gloersen, and W.~J. Campbell (1984), {Determination of sea
+  ice parameters with the NIMBUS 7 SMMR}, \textit{Journal of Geophysical
+  Research: Atmospheres}, \textit{89}(D4), 5355--5369,
+  \doi{10.1029/JD089iD04p05355}.
+
+\bibitem[{\textit{Cohen et~al.}(2014)\textit{Cohen, Screen, Furtado, Barlow,
+  Whittleston, Coumou, Francis, Dethloff, Entekhabi, Overland, and
+  Jones}}]{Cohen2014}
+Cohen, J., J.~A. Screen, J.~C. Furtado, M.~Barlow, D.~Whittleston, D.~Coumou,
+  J.~Francis, K.~Dethloff, D.~Entekhabi, J.~Overland, and J.~Jones (2014),
+  {Recent Arctic amplification and extreme mid-latitude weather},
+  \textit{Nature Geoscience}, \textit{7}(9), 627--637, \doi{10.1038/ngeo2234}.
+
+\bibitem[{\textit{Descamps et~al.}(2017)\textit{Descamps, Aars, Fuglei, Kovacs,
+  Lydersen, Pavlova, Pedersen, Ravolainen, and Strom}}]{Descamps2017}
+Descamps, S., J.~Aars, E.~Fuglei, K.~M. Kovacs, C.~Lydersen, O.~Pavlova, A.~O.
+  Pedersen, V.~Ravolainen, and H.~Strom (2017), {Climate change impacts on
+  wildlife in a High Arctic archipelago - Svalbard, Norway}, \textit{Global
+  Change Biology}, \textit{23}(2), 490--502, \doi{10.1111/gcb.13381}.
+
+\bibitem[{\textit{Fetterer et~al.}(2017)\textit{Fetterer, K, Meier, and
+  Savoie}}]{Fetterer2017}
+Fetterer, F., K.~K, W.~Meier, and M.~Savoie (2017), {Sea Ice Index, Version 2},
+  \doi{http://dx.doi.org/10.7265/N5736NV7}.
+
+\bibitem[{\textit{Graham et~al.}(2017)\textit{Graham, Rinke, Cohen, Hudson,
+  Walden, Granskog, Dorn, Kayser, and Maturilli}}]{Graham2017}
+Graham, R.~M., A.~Rinke, L.~Cohen, S.~R. Hudson, V.~P. Walden, M.~A. Granskog,
+  W.~Dorn, M.~Kayser, and M.~Maturilli (2017), {A comparison of the two Arctic
+  atmospheric winter states observed during N-ICE2015 and SHEBA},
+  \textit{Journal of Geophysical Research: Atmospheres}, \textit{122}(11),
+  5716--5737, \doi{10.1002/2016JD025475}.
+
+\bibitem[{\textit{Granskog et~al.}(2016)\textit{Granskog, Assmy, Gerland,
+  Spreen, Steen, and Smedsrud}}]{Granskog2016}
+Granskog, M., P.~Assmy, S.~Gerland, G.~Spreen, H.~Steen, and L.~Smedsrud
+  (2016), {Arctic Research on Thin Ice: Consequences of Arctic Sea Ice Loss},
+  \textit{Eos}, \textit{97}, \doi{10.1029/2016EO044097}.
+
+\bibitem[{\textit{Isaksen et~al.}(2016)\textit{Isaksen, Nordli, Forland,
+  Lupikasza, Eastwood, and Niedzwiedz}}]{Isaksen2016}
+Isaksen, K., O.~Nordli, E.~J. Forland, E.~Lupikasza, S.~Eastwood, and
+  T.~Niedzwiedz (2016), {Recent warming on Spitsbergen-Influence of atmospheric
+  circulation and sea ice cover}, \textit{Journal of Geophysical Research:
+  Atmospheres}, \textit{121}(20), 11,913--11,931, \doi{10.1002/2016JD025606}.
+
+\bibitem[{\textit{Ivanova et~al.}(2015)\textit{Ivanova, Pedersen, Tonboe, Kern,
+  Heygster, Lavergne, S{\o}rensen, Saldo, Dybkj{\ae}r, Brucker, and
+  Shokr}}]{Ivanova2015}
+Ivanova, N., L.~T. Pedersen, R.~T. Tonboe, S.~Kern, G.~Heygster, T.~Lavergne,
+  A.~S{\o}rensen, R.~Saldo, G.~Dybkj{\ae}r, L.~Brucker, and M.~Shokr (2015),
+  {Inter-comparison and evaluation of sea ice algorithms: towards further
+  identification of challenges and optimal approach using passive microwave
+  observations}, \textit{The Cryosphere}, \textit{9}(5), 1797--1817,
+  \doi{10.5194/tc-9-1797-2015}.
+
+\bibitem[{\textit{Kaleschke et~al.}(2016)\textit{Kaleschke, Tian-Kunze,
+  Maa{\ss}, Beitsch, Wernecke, Miernecki, M{\"{u}}ller, Fock, Gierisch,
+  Schl{\"{u}}nzen, Pohlmann, Dobrynin, Hendricks, Asseng, Gerdes, Jochmann,
+  Reimer, Holfort, Melsheimer, Heygster, Spreen, Gerland, King, Skou,
+  S{\o}bj{\ae}rg, Haas, Richter, and Casal}}]{Kaleschke2016}
+Kaleschke, L., X.~Tian-Kunze, N.~Maa{\ss}, A.~Beitsch, A.~Wernecke,
+  M.~Miernecki, G.~M{\"{u}}ller, B.~H. Fock, A.~M. Gierisch, K.~H.
+  Schl{\"{u}}nzen, T.~Pohlmann, M.~Dobrynin, S.~Hendricks, J.~Asseng,
+  R.~Gerdes, P.~Jochmann, N.~Reimer, J.~Holfort, C.~Melsheimer, G.~Heygster,
+  G.~Spreen, S.~Gerland, J.~King, N.~Skou, S.~S. S{\o}bj{\ae}rg, C.~Haas,
+  F.~Richter, and T.~Casal (2016), {SMOS sea ice product: Operational
+  application and validation in the Barents Sea marginal ice zone},
+  \textit{Remote Sensing of Environment}, \textit{180}, 264--273,
+  \doi{10.1016/j.rse.2016.03.009}.
+
+\bibitem[{\textit{Kern et~al.}(2003)\textit{Kern, Kaleschke, and
+  Clausi}}]{Kern2003}
+Kern, S., L.~Kaleschke, and D.~Clausi (2003), {A Comparison of Two 85-GHz SSM/I
+  Ice Concentration Algorithms With AVHRR and ERS-2 SAR Imagery}, \textit{IEEE
+  Transactions on Geoscience and Remote Sensing}, \textit{41}(10), 2294--2306,
+  \doi{10.1109/TGRS.2003.817181}.
+
+\bibitem[{\textit{Kwok and Rothrock}(2009)}]{Kwok2009}
+Kwok, R., and D.~A. Rothrock (2009), {Decline in Arctic sea ice thickness from
+  submarine and ICESat records: 1958-2008}, \textit{Geophysical Research
+  Letters}, \textit{36}(15), n/a--n/a, \doi{10.1029/2009GL039035}.
+
+\bibitem[{\textit{Laxon et~al.}(2013)\textit{Laxon, Giles, Ridout, Wingham,
+  Willatt, Cullen, Kwok, Schweiger, Zhang, Haas, Hendricks, Krishfield, Kurtz,
+  Farrell, and Davidson}}]{Laxon2013}
+Laxon, S.~W., K.~A. Giles, A.~L. Ridout, D.~J. Wingham, R.~Willatt, R.~Cullen,
+  R.~Kwok, A.~Schweiger, J.~Zhang, C.~Haas, S.~Hendricks, R.~Krishfield,
+  N.~Kurtz, S.~Farrell, and M.~Davidson (2013), {CryoSat-2 estimates of Arctic
+  sea ice thickness and volume}, \textit{Geophysical Research Letters},
+  \textit{40}(4), 732--737, \doi{10.1002/grl.50193}.
+
+\bibitem[{\textit{Lindsay et~al.}(2014)\textit{Lindsay, Wensnahan, Schweiger,
+  Zhang, Lindsay, Wensnahan, Schweiger, and Zhang}}]{Lindsay2014}
+Lindsay, R., M.~Wensnahan, A.~Schweiger, J.~Zhang, R.~Lindsay, M.~Wensnahan,
+  A.~Schweiger, and J.~Zhang (2014), {Evaluation of Seven Different Atmospheric
+  Reanalysis Products in the Arctic*},
+  \textit{http://dx.doi.org/10.1175/JCLI-D-13-00014.1}.
+
+\bibitem[{\textit{Nordli et~al.}(2014)\textit{Nordli, Przybylak, Ogilvie, and
+  Isaksen}}]{Nordli2014}
+Nordli, O., R.~Przybylak, A.~E. Ogilvie, and K.~Isaksen (2014), {Long-term
+  temperature trends and variability on Spitsbergen: the extended Svalbard
+  Airport temperature series, 1898?2012}, \textit{Polar Research},
+  \textit{33}(1), 21,349, \doi{10.3402/polar.v33.21349}.
+
+\bibitem[{\textit{Orlich et~al.}(2013)\textit{Orlich, Hutchings, and
+  Green}}]{Orlich2013}
+Orlich, A., J.~K. Hutchings, and T.~M. Green (2013), {Observing Arctic Sea Ice
+  from Bow to Screen: Introducing Ice Watch, the Data Network of Near Real-Time
+  and Historic Observations from the Arctic Shipborne Sea Ice Standardization
+  Tool (ASSIST)}, \textit{American Geophysical Union, Fall Meeting 2013,
+  abstract {\#}C31B-0652}.
+
+\bibitem[{\textit{Overland et~al.}(2012)\textit{Overland, Francis, Hanna, and
+  Wang}}]{Overland2012}
+Overland, J.~E., J.~A. Francis, E.~Hanna, and M.~Wang (2012), {The recent shift
+  in early summer Arctic atmospheric circulation}, \textit{Geophysical Research
+  Letters}, \textit{39}(19), n/a--n/a, \doi{10.1029/2012GL053268}.
+
+\bibitem[{\textit{Parkinson et~al.}(1999)\textit{Parkinson, Cavalieri,
+  Gloersen, Zwally, and Comiso}}]{Parkinson1999a}
+Parkinson, C.~L., D.~J. Cavalieri, P.~Gloersen, H.~J. Zwally, and J.~C. Comiso
+  (1999), {Arctic sea ice extents, areas, and trends, 1978-1996},
+  \textit{Journal of Geophysical Research: Oceans}, \textit{104}(C9),
+  20,837--20,856, \doi{10.1029/1999JC900082}.
+
+\bibitem[{\textit{Rayner et~al.}(2003)\textit{Rayner, Parker, Horton, Folland,
+  Alexander, Rowell, Kent, and Kaplan}}]{Rayner2003a}
+Rayner, N.~A., D.~E. Parker, E.~B. Horton, C.~K. Folland, L.~V. Alexander,
+  D.~P. Rowell, E.~C. Kent, and A.~Kaplan (2003), {Global analyses of sea
+  surface temperature, sea ice, and night marine air temperature since the late
+  nineteenth century}, \textit{Journal of Geophysical Research},
+  \textit{108}(D14), 4407, \doi{10.1029/2002JD002670}.
+
+\bibitem[{\textit{Rosenblum et~al.}(2017)\textit{Rosenblum, Eisenman,
+  Rosenblum, and Eisenman}}]{Rosenblum2017}
+Rosenblum, E., I.~Eisenman, E.~Rosenblum, and I.~Eisenman (2017), {Sea ice
+  trends in climate models only accurate in runs with biased global warming},
+  \textit{Journal of Climate}, pp. JCLI--D--16--0455.1,
+  \doi{10.1175/JCLI-D-16-0455.1}.
+
+\bibitem[{\textit{Scott et~al.}(2015)\textit{Scott, Ashouri, Buehner, Pogson,
+  and Carrieres}}]{Scott2015}
+Scott, K.~A., Z.~Ashouri, M.~Buehner, L.~Pogson, and T.~Carrieres (2015),
+  {Assimilation of ice and water observations from SAR imagery to improve
+  estimates of sea ice concentration}, \textit{Tellus A: Dynamic Meteorology
+  and Oceanography}, \textit{67}(1), 27,218, \doi{10.3402/tellusa.v67.27218}.
+
+\bibitem[{\textit{Screen and Simmonds}(2010)}]{Screen2010}
+Screen, J.~A., and I.~Simmonds (2010), {The central role of diminishing sea ice
+  in recent Arctic temperature amplification.}, \textit{Nature},
+  \textit{464}(7293), 1334--7, \doi{10.1038/nature09051}.
+
+\bibitem[{\textit{Serreze et~al.}(2007)\textit{Serreze, Holland, and
+  Stroeve}}]{Serreze2007}
+Serreze, M.~C., M.~M. Holland, and J.~Stroeve (2007), {Perspectives on the
+  Arctic's Shrinking Sea-Ice Cover}, \textit{Science}, \textit{315}(5818).
+
+\bibitem[{\textit{Serreze et~al.}(2009)\textit{Serreze, Barrett, Stroeve,
+  Kindig, and Holland}}]{Serreze2009}
+Serreze, M.~C., A.~P. Barrett, J.~C. Stroeve, D.~N. Kindig, and M.~M. Holland
+  (2009), {The emergence of surface-based Arctic amplification}, \textit{The
+  Cryosphere}, \textit{3}(1), 11--19, \doi{10.5194/tc-3-11-2009}.
+
+\bibitem[{\textit{Smedsrud et~al.}(2017)\textit{Smedsrud, Halvorsen, Stroeve,
+  Zhang, and Kloster}}]{Smedsrud2017}
+Smedsrud, L.~H., M.~H. Halvorsen, J.~C. Stroeve, R.~Zhang, and K.~Kloster
+  (2017), {Fram Strait sea ice export variability and September Arctic sea ice
+  extent over the last 80 years}, \textit{The Cryosphere}, \textit{11}(1),
+  65--79, \doi{10.5194/tc-11-65-2017}.
+
+\bibitem[{\textit{Spreen et~al.}(2008)\textit{Spreen, Kaleschke, and
+  Heygster}}]{Spreen2008}
+Spreen, G., L.~Kaleschke, and G.~Heygster (2008), {Sea ice remote sensing using
+  AMSR-E 89-GHz channels}, \textit{Journal of Geophysical Research},
+  \textit{113}(C2), C02S03, \doi{10.1029/2005JC003384}.
+
+\bibitem[{\textit{Stroeve et~al.}(2011)\textit{Stroeve, Serreze, Holland, Kay,
+  Malanik, and Barrett}}]{Stroeve2011}
+Stroeve, J.~C., M.~C. Serreze, M.~M. Holland, J.~E. Kay, J.~Malanik, and A.~P.
+  Barrett (2011), {The Arctic's rapidly shrinking sea ice cover: a research
+  synthesis}, \textit{Climatic Change}, \textit{110}(3-4), 1005--1027,
+  \doi{10.1007/s10584-011-0101-1}.
+
+\bibitem[{\textit{Stroeve et~al.}(2012)\textit{Stroeve, Kattsov, Barrett,
+  Serreze, Pavlova, Holland, and Meier}}]{Stroeve2012a}
+Stroeve, J.~C., V.~Kattsov, A.~Barrett, M.~Serreze, T.~Pavlova, M.~Holland, and
+  W.~N. Meier (2012), {Trends in Arctic sea ice extent from CMIP5, CMIP3 and
+  observations}, \textit{Geophysical Research Letters}, \textit{39}(16),
+  n/a--n/a, \doi{10.1029/2012GL052676}.
+
+\bibitem[{\textit{Zygmuntowska et~al.}(2014)\textit{Zygmuntowska, Rampal,
+  Ivanova, and Smedsrud}}]{Zygmuntowska2014}
+Zygmuntowska, M., P.~Rampal, N.~Ivanova, and L.~H. Smedsrud (2014),
+  {Uncertainties in Arctic sea ice thickness and volume: new estimates and
+  implications for trends}, \textit{The Cryosphere}, \textit{8}(2), 705--720,
+  \doi{10.5194/tc-8-705-2014}.
+
+\end{thebibliography}

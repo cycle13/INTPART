@@ -1,0 +1,639 @@
+%% 11/23/2015
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AGUJournalTemplate.tex: this template file is for articles formatted with LaTeX
+%
+% This file includes commands and instructions
+% given in the order necessary to produce a final output that will
+% satisfy AGU requirements. 
+%
+% You may copy this file and give it your
+% article name, and enter your text.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLEASE DO NOT USE YOUR OWN MACROS
+% DO NOT USE \newcommand, \renewcommand, or \def, etc.
+%
+% FOR FIGURES, DO NOT USE \psfrag or \subfigure.
+% DO NOT USE \psfrag or \subfigure commands.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% All questions should be e-mailed to latex@agu.org.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Step 1: Set the \documentclass
+%
+% There are two options for article format:
+%
+% 1) PLEASE USE THE DRAFT OPTION TO SUBMIT YOUR PAPERS.
+% The draft option produces double spaced output.
+% 
+% 2) numberline will give you line numbers.
+
+%% To submit your paper:
+\documentclass[draft,linenumbers]{agujournal}
+\drafttrue
+
+\usepackage{gensymb}
+\usepackage{url}
+
+%% For final version.
+% \documentclass{agujournal}
+
+% Now, type in the journal name: \journalname{<Journal Name>}
+
+% ie, \journalname{Journal of Geophysical Research}
+%% Choose from this list of Journals:
+%
+% JGR-Atmospheres
+% JGR-Biogeosciences
+% JGR-Earth Surface
+% JGR-Oceans
+% JGR-Planets
+% JGR-Solid Earth
+% JGR-Space Physics
+% Global Biochemical Cycles
+% Geophysical Research Letters
+% Paleoceanography
+% Radio Science
+% Reviews of Geophysics
+% Tectonics
+% Space Weather
+% Water Resource Research
+% Geochemistry, Geophysics, Geosystems
+% Journal of Advances in Modeling Earth Systems (JAMES)
+% Earth's Future
+% Earth and Space Science
+%
+%
+
+\journalname{Geophysical Research Letters}
+
+
+\begin{document}
+%\Large
+
+%% ------------------------------------------------------------------------ %%
+%  Title
+% 
+% (A title should be specific, informative, and brief. Use
+% abbreviations only if they are defined in the abstract. Titles that
+% start with general keywords then specific terms are optimized in
+% searches)
+%
+%% ------------------------------------------------------------------------ %%
+
+% Example: \title{This is a test title}
+
+\title{Validation of sea ice concentration observations in the Fram Strait marginal ice zone during May 2017}
+
+%\title{Evaluating the long-term Arctic sea ice thickness record using PIOMAS and relationships with the springtime large-scale atmospheric circulation}
+
+%% ------------------------------------------------------------------------ %%
+%
+%  AUTHORS AND AFFILIATIONS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Authors are individuals who have significantly contributed to the
+% research and preparation of the article. Group authors are allowed, if
+% each author in the group is separately identified in an appendix.)
+
+% List authors by first name or initial followed by last name and
+% separated by commas. Use \affil{} to number affiliations, and
+% \thanks{} for author notes.  
+% Additional author notes should be indicated with \thanks{} (for
+% example, for current addresses). 
+
+% Example: \authors{A. B. Author\affil{1}\thanks{Current address, Antartica}, B. C. Author\affil{2,3}, and D. E.
+% Author\affil{3,4}\thanks{Also funded by Monsanto.}}
+
+\authors{Z. Labe\affil{1}}
+
+
+% \affiliation{1}{First Affiliation}
+% \affiliation{2}{Second Affiliation}
+% \affiliation{3}{Third Affiliation}
+% \affiliation{4}{Fourth Affiliation}
+
+\affiliation{1}{Department of Earth System Science, University of California, Irvine, California, USA}
+%(repeat as many times as is necessary)
+
+%% Corresponding Author:
+% Corresponding author mailing address and e-mail address:
+
+% (include name and email addresses of the corresponding author.  More
+% than one corresponding author is allowed in this LaTeX file and for
+% publication; but only one corresponding author is allowed in our
+% editorial system.)  
+
+% Example: \correspondingauthor{First and Last Name}{email@address.edu}
+
+\correspondingauthor{Zachary Labe}{zlabe@uci.edu}
+
+%% Keypoints, final entry on title page.
+
+% Example: 
+% \begin{keypoints}
+% \item	List up to three key points (at least one is required)
+% \item	Key Points summarize the main points and conclusions of the article
+% \item	Each must be 100 characters or less with no special characters or punctuation 
+% \end{keypoints}
+
+%  List up to three key points (at least one is required)
+%  Key Points summarize the main points and conclusions of the article
+%  Each must be 100 characters or less with no special characters or punctuation 
+
+\begin{keypoints}
+\item Sea ice cover varies at the edge of the Fram Strait marginal ice zone with significant day-to-day fluctuations
+\item AMSR2 ASI-3k (3.125 km) captures the sea ice edge, but is unable to resolve the smaller leads and sea ice dispersion during the duration of the R/V \textit{Lance} field cruise 
+\item In situ and remote sensing observations need standardized methods for comparisons and verification
+\end{keypoints}
+
+%% ------------------------------------------------------------------------ %%
+%
+%  ABSTRACT
+%
+% A good abstract will begin with a short description of the problem
+% being addressed, briefly describe the new data or analyses, then
+% briefly states the main conclusion(s) and how they are supported and
+% uncertainties. 
+%% ------------------------------------------------------------------------ %%
+
+%% \begin{abstract} starts the second page 
+
+\begin{abstract}
+The continuous passive microwave satellite record of Arctic sea ice is a critical data set to understanding Arctic climate variability and change. Numerous satellite and reanalysis data sets provide sea ice concentration measurements, but further validation is needed to assess their biases and uncertainties. Here we evaluate high resolution sea ice concentration observations from the 3.125 km (ASI-3k) Advanced Microwave Scanning Radiometer 2 (AMSR2) product to compare with ground observations during a field cruise in the Fram Strait from 18-24$^{\text{th}}$ May 2017. ASI-3k closely resolves the marginal sea ice zone edge and larger leads, but overestimates in areas of more dispersed sea ice. Further improvements to the spatial resolution of sea ice satellite observations will assist scientists and numerous stakeholders in documenting future Arctic sea ice loss
+\end{abstract}
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  TEXT
+%
+%% ------------------------------------------------------------------------ %%
+
+%%% Suggested section heads:
+% \section{Introduction}
+% 
+% The main text should start with an introduction. Except for short
+% manuscripts (such as comments and replies), the text should be divided
+% into sections, each with its own heading. 
+
+% Headings should be sentence fragments and do not begin with a
+% lowercase letter or number. Examples of good headings are:
+
+% \section{Materials and Methods}
+% Here is text on Materials and Methods.
+%
+% \subsection{A descriptive heading about methods}
+% More about Methods.
+% 
+% \section{Data} (Or section title might be a descriptive heading about data)
+% 
+% \section{Results} (Or section title might be a descriptive heading about the
+% results)
+% 
+% \section{Conclusions}
+
+
+\section{Introduction}
+The Arctic has witnessed significant changes in sea ice extent (SIE) \citep{Serreze2007} and thickness (SIT) \citep{Kwok2009}, surface temperature warming \citep{Screen2010}, and changes in the large-scale atmospheric circulation \citep{Overland2012, Cohen2014} during the last several decades. However, large uncertainties remain in remote sensing observations of sea ice \citep{Zygmuntowska2014, Ivanova2015}, reanalysis data sets \citep{Lindsay2014}, and future climate model projections \citep{Stroeve2012a, Rosenblum2017}. Improving the amount of in situ observations in the Arctic is important for analyzing long-term sea ice and climate variability. Further, in situ observations provide ground validation tests to resolve climate data set uncertainties and biases. 
+
+Arctic field cruises have been previously used for validating sea ice concentration (SIC) \citep[e.g.,][]{Spreen2008} and SIT \citep[e.g.,][]{Kaleschke2016} with remote sensing observations. This paper evaluates SIC observations between ship observations from a mid-May field cruise (R/V \textit{Lance}) in the marginal ice zone northwest of Svalbard ($\approx 80^{\circ}$N latitude). While the passive microwave satellite record provides one of the longest data sets documenting Arctic sea ice \citep{Parkinson1999a}, there remain uncertainties in various products due to cloud cover, atmospheric absorption and emissivity, surface roughness, and snow surface properties \citep{Rayner2003a, Andersen2007}. While this analysis is limited in space and time (as a result of the field cruise), we provide an assessment of in situ SIC observations with the new high-resolution (3.125 km) Advanced Microwave Scanning Radiometer 2 (AMSR2) SIC product (ASI-3k) provided by the University of Hamburg \citep{Beitsch2014}.
+
+Here we assess the differences between observed SIC on the R/V \textit{Lance} field cruise with the high resolution ASI-3k product over the 18-24 May 2017 period. In section \ref{sec:2} we discuss the sea ice data sets and methods of analysis. Section \ref{sec:3} examines the changes and differences in sea ice cover during the field cruise. Finally, section \ref{sec:4} discusses uncertainties in observations and the need for continued high temporal and spatial remote sensing of the Arctic.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Data and Methods}
+\label{sec:2}
+\subsection{R/V \textit{Lance}}
+\label{sec:2.1}
+Sea ice observations were taken following the Arctic Shipborne Sea Ice Standardization Tool (ASSIST) developed by Climate and Cryosphere (CliC) Arctic Sea Ice Working Group (ASIWG) in August 2012 \citep{Orlich2013}. The ASSIST software is freely available at \url{http://www.iarc.uaf.edu/icewatch} along with open-access data of near-real time sea ice observations from participating vessels. The observations follow the (1970) World Meteorological Organization (WMO) nomenclature and the Antarctic Sea Ice and Processes \& Climate (ASPeCt) protocol \citep{Orlich2013}. Observable parameters in the ASSIST software include: weather conditions, SIC, sea ice age, snow type and depth, algae and sediment accumulation, sea ice topography and ice ridges, melt ponds, and open water fraction. 
+
+Observations during the R/V \textit{Lance} field cruise were taken hourly while maneuvering through the marginal ice zone and every 3-hours while anchored/drifting with sea ice floes (19-23 May 2017). However, there are inconsistencies in these observations as a result of different observers (more than 10 people) and missed observation times. Photographs were also taken at every observation period facing port, starboard, and forward in the ship bridge. Visibility also restricted the view during observations from fog, blowing snow, and occasional snow squalls. Finally, biases may also exist as the R/V \textit{Lance} is not an icebreaker, and therefore, it particularly travels through lead openings and areas of thinner ice. SIC values are reported in tenths (0-10). While large uncertainties arise from the bridge observers' reports, they are particularly useful given the lack of ground observations in the Arctic and have been used for validation in prior studies \citep[e.g.,][]{Spreen2008}.
+
+\subsection{Sea ice data}
+\label{sec:2.2}
+We use daily SIE in the Greenland Sea from the National Snow and Ice Data Center (NSIDC) Arctic Sea Ice Index, version 2 \citep{Fetterer2017}. SIE is derived from grid cells averaging at least 15\% in SIC and uses the NASA Team methods by \citet{Cavalieri1984}. The passive microwave satellite record of SIC is derived from brightness temperature extending from 1978 through the present.
+
+For comparison with ground observations from the R/V \textit{Lance}, we use the new Advanced Microwave Scanning Radiometer 2 (AMSR2) data set of SIC \citep{Beitsch2014} using the ARTIST Sea Ice algorithm \citep{Spreen2008} on a 3.125 x 3.125 km polar stereographic grid (ASI-3k). Daily data is available from 1 August 2012. SIC is derived from polarization differences in brightness temperature on the AMSR2 89 GHz channel. Estimates by \citet{Spreen2008} found the ARTIST algorithm for SIC correlated 0.8 with ship observations, and the largest differences were found near areas of thin ice (especially $<$ 20 cm) \citep{Kern2003, Scott2015}. Additionally, \citet{Beitsch2014} showed close agreement between MODIS imagery and ASI-3k SIC in their analysis of a large fracture event (2013) in the Beaufort Sea. ASI-3k provides the highest resolution data set of global SIC. 
+
+\subsection{Methods}
+\label{sec:2.3}
+We assess the seasonal cycle of SIE in the Greenland Sea from 1978 to 2017. The Greenland Sea is defined by the NSIDC regional mask in \citet{Parkinson1999a} from southern Greenland to (and including) Svalbard. The mean SIE is defined by a 1981 to 2010 climatology. We focus on the SIE during the period of the field cruise from 18-23 May 2017.
+
+SIC from ASI-3k were rounded to the nearest tenth for consistency with the R/V \textit{Lance} observations. A time series was created of ASI-3k SIC from 19-23 May 2017 for a region of the Fram Strait (Greenland Sea) just northwest of Svalbard. Additionally, a composite of ASI-3k SIC in this spatial domain was averaged over the time period. Comparisons between satellite and observational SIC were made for each day and with the time series composite average.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Results}
+\label{sec:3}
+Fig. \ref{fig:1} shows SIE in the Greenland Sea from November 1978 to June 2017. January 2017 SIE was the lowest on record in the Greenland, but has since risen closer to average during spring. SIE during the field cruise was near the 1981-2010 climatological average with May 2017 ranking 19$^{\text{th}}$ (out of 39) for lowest SIE. Similarly, sea ice area (SIA) was near average and ranked 23$^{\text{rd}}$ (not shown). Overall, there is a decline of SIE in all months during the satellite era in the Greenland Sea. This is especially found in the winter and spring. Analysis by \citet{Smedsrud2017} show significant interannual variability of sea ice export in the Fram Strait, but also a loss of September SIE since the mid-1970s.
+
+The track of the R/V \textit{Lance} is shown in Fig. \ref{fig:2} along with the ship's SIC observations and mean composite of ASI-3k SIC (19-23 May 2017). In contrast to ASI-3k, no sea ice was observed along the west coast of Svalbard and near Prins Karls Forland. The marginal sea ice zone edge is well captured by ASI-3k and consistent with ship observations. Fig. \ref{fig:3} highlights SIC observations from the R/V \textit{Lance} and shows a well defined ice edge with SIC increasing from 10\% to 70\% in a 3-hour period entering the marginal ice zone (May 19$^\text{th}$). Similarly, this is found leaving the ice pack on the 23$^\text{rd}$. SIC varied between 70\% and 90\% while in the marginal ice zone and anchored to ice floes, although this may be biased by the R/V \textit{Lance} traveling through lead openings and thinner ice areas. The R/V \textit{Lance} anchored to several ice floes and drifted with the sea ice during these periods. The frequency of SIC observations were reduced to every 3-hours, but variability was still found in the fraction of open water and lead size.
+
+Finally, Fig. \ref{fig:4} analyzes each day of the field cruise for a comparison between in situ ship SIC observations and ASI-3k. Entering the sea ice pack on May 19$^{\text{th}}$ shows a sharp edge to the marginal ice zone with in situ observations comparing closely to ASI-3k. The best agreement between these two observation data sets is during this period. On May 20$^{\text{th}}$ the R/V \textit{Lance} primarily remained anchored and drifted with a sea ice floe. Ship observations were between approximately 70-80\% SIC while ASI-3k showed complete ice cover (100\%). These differences may result from the 3.125 km resolution in ASI-3k, which is unable to resolve smaller leads and higher uncertainty in areas of thinner ice \citep{Scott2015}. Likewise, these discrepancies are also found on May 21$^\text{st}$. ASI-3k shows the marginal ice zone slightly retreated starting on May 22$^\text{nd}$ and became more dispersed. Comparisons between ship observations and ASI-3k, however, show fairly close agreement despite increasing sea ice dispersion. The ASI-3k is only available once per day, and therefore would not be expected to account for ongoing abrupt changes in sea ice shape and motion.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary and conclusions}
+\label{sec:4}
+The Arctic has undergone dramatic changes over the last several decades \citep[e.g.,][]{Serreze2009,Stroeve2011,Laxon2013, Cohen2014} and in particular for areas close to Svalbard \citep[e.g.,][]{Nordli2014, Isaksen2016, Descamps2017}. Here we evaluated the high resolution ASI-3k satellite SIC product with in situ observations during a field cruise (R/V \textit{Lance}) in the Fram Strait just northwest of Svalbard (18-24 May 2017). ASI-3k compares well with the ship SIC observations, particularly at the edge of the marginal ice zone. However, in the sea ice pack, we find differences between the two data sets with the ship observations approximately 20-30\% less than ASI-3k. We note that there may be additional uncertainties from the ship observations as a result of different observers, restricted visibility from blowing snow and weather, changes in the frequency of observations, and influence of the R/V \textit{Lance} track.
+
+The recent Norwegian Young Sea Ice Cruise (N-ICE2015) field campaign by the R/V \textit{Lance} demonstrated the importance of collecting and verifying ground observations in a changing Arctic \citep[e.g.,][]{Granskog2016, Graham2017}. To improve our understanding of long-term Arctic climate variability, more in situ observations are needed for comparison with passive microwave satellite products. Uncertainties still remain between these different sea ice data sets and algorithms, which can affect climate models and reanalysis \citep{Bunzel2016, Ivanova2015}. While a larger spatial domain and longer temporal range of observations is needed, our assessment shows close agreement between in situ observations and the ASI-3k satellite product of SIC during the field cruise.
+
+%%
+%  Numbered lines in equations:
+%  To add line numbers to lines in equations,
+%  \begin{linenomath*}
+%  \begin{equation}
+%  \end{equation}
+%  \end{linenomath*}
+
+%% Enter Figures and Tables near as possible to where they are first mentioned:
+%
+% DO NOT USE \psfrag or \subfigure commands.
+%
+% Figure captions go below the figure.
+% Table titles go above tables;  other caption information
+%  should be placed in last line of the table, using
+% \multicolumn2l{$^a$ This is a table note.}
+%
+%----------------
+% EXAMPLE FIGURE
+%
+% \begin{figure}[h]
+% \centering
+% when using pdflatex, use pdf file:
+% \includegraphics[width=20pc]{figsamp.pdf}
+%
+% when using dvips, use .eps file:
+% \includegraphics[width=20pc]{figsamp.eps}
+%
+% \caption{Short caption}
+% \label{figone}
+%  \end{figure}
+%
+% ---------------
+% EXAMPLE TABLE
+%
+% \begin{table}
+% \caption{Time of the Transition Between Phase 1 and Phase 2$^{a}$}
+% \centering
+% \begin{tabular}{l c}
+% \hline
+%  Run  & Time (min)  \\
+% \hline
+%   $l1$  & 260   \\
+%   $l2$  & 300   \\
+%   $l3$  & 340   \\
+%   $h1$  & 270   \\
+%   $h2$  & 250   \\
+%   $h3$  & 380   \\
+%   $r1$  & 370   \\
+%   $r2$  & 390   \\
+% \hline
+% \multicolumn{2}{l}{$^{a}$Footnote text here.}
+% \end{tabular}
+% \end{table}
+
+%% SIDEWAYS FIGURE and TABLE 
+% AGU prefers the use of {sidewaystable} over {landscapetable} as it causes fewer problems.
+%
+% \begin{sidewaysfigure}
+% \includegraphics[width=20pc]{figsamp}
+% \caption{caption here}
+% \label{newfig}
+% \end{sidewaysfigure}
+% 
+%  \begin{sidewaystable}
+%  \caption{Caption here}
+% \label{tab:signif_gap_clos}
+%  \begin{tabular}{ccc}
+% one&two&three\\
+% four&five&six
+%  \end{tabular}
+%  \end{sidewaystable}
+
+%% If using numbered lines, please surround equations with \begin{linenomath*}...\end{linenomath*}
+%\begin{linenomath*}
+%\begin{equation}
+%y|{f} \sim g(m, \sigma),
+%\end{equation}
+%\end{linenomath*}
+
+%%% End of body of article
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Optional Appendix goes here
+%
+% The \appendix command resets counters and redefines section heads
+%
+% After typing \appendix
+%
+%\section{Here Is Appendix Title}
+% will show
+% A: Here Is Appendix Title
+%
+%\appendix
+%\section{Here is a sample appendix}
+
+%
+%%%%%%%%%%%%%%
+% Notation 
+%   \begin{notation}
+%   \notation{$a+b$} Notation Definition here
+%   \notation{$e=mc^2$} 
+%   Equation in German-born physicist Albert Einstein's theory of special
+%  relativity that showed that the increased relativistic mass ($m$) of a
+%  body comes from the energy of motion of the body—that is, its kinetic
+%  energy ($E$)—divided by the speed of light squared ($c^2$).
+%   \end{notation}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  ACKNOWLEDGMENTS
+%
+% The acknowledgments must list:
+%
+% •	All funding sources related to this work from all authors
+%
+% •	Any real or perceived financial conflicts of interests for any
+%	author
+%
+% •	Other affiliations for any author that may be perceived as
+% 	having a conflict of interest with respect to the results of this
+% 	paper.
+%
+% •	A statement that indicates to the reader where the data
+% 	supporting the conclusions can be obtained (for example, in the
+% 	references, tables, supporting information, and other databases).
+%
+% It is also the appropriate place to thank colleagues and other contributors. 
+% AGU does not normally allow dedications.
+
+
+\acknowledgments
+This report is in part of a 3-year INTPART project: ``Arctic Field Summer Schools: Norway-Canada-USA collaboration'' (NFR project 261786/H30). The R/V \textit{Lance} was chartered from 18-24 May 2017 out of Longyearbyen, Svalbard. We thank the captain and crew for their assistance on board. Python 2.7 was used for data processing and plotting. All code used for this manuscript is available in an online repository at \url{https://github.com/zmlabe/INTPART}. AMSR2 ASI-3k satellite data is freely available from \url{ftp://ftp-projects.zmaw.de/seaice/AMSR2/}. Sea ice extent data can be downloaded from the National Snow and Ice Data Center at \url{http://nsidc.org/data/docs/noaa/g02135_seaice_index/}. Any additional data may be available upon request from Z. Labe.
+
+%% ------------------------------------------------------------------------ %%
+%% Citations
+
+% Please use ONLY \citet and \citep for reference citations.
+% DO NOT use other cite commands (e.g., \cite, \citeyear, \nocite, \citealp, etc.).
+
+
+%% Example \citet and \citep:
+%  ...as shown by \citet{Boug10}, \citet{Buiz07}, \citet{Fra10},
+%  \citet{Ghel00}, and \citet{Leit74}. 
+
+%  ...as shown by \citep{Boug10}, \citep{Buiz07}, \citep{Fra10},
+%  \citep{Ghel00, Leit74}. 
+
+%  ...has been shown \citep [e.g.,][]{Boug10,Buiz07,Fra10}.
+
+
+
+%%  REFERENCE LIST AND TEXT CITATIONS
+%
+% Either type in your references using
+%
+% \begin{thebibliography}{}
+% \bibitem[{\textit{Kobayashi et~al.}}(2003)]{R2013} Kobayashi, T.,
+% Tran, A.~H., Nishijo, H., Ono, T., and Matsumoto, G.  (2003).
+% Contribution of hippocampal place cell activity to learning and
+% formation of goal-directed navigation in rats. \textit{Neuroscience}
+% 117, 1025--1035.
+%
+% \bibitem{}
+% Text
+% \end{thebibliography}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Or, to use BibTeX:
+%
+% Follow these steps
+%
+% 1. Type in \bibliography{<name of your .bib file>} 
+%    Run LaTeX on your LaTeX file.
+%
+% 2. Run BiBTeX on your LaTeX file.
+%
+% 3. Open the new .bbl file containing the reference list and
+%   copy all the contents into your LaTeX file here.
+%
+% 4. Run LaTeX on your new file which will produce the citations.
+%
+% AGU does not want a .bib or a .bbl file. Please copy in the contents of your .bbl file here.
+
+
+%% After you run BibTeX, Copy in the contents of the .bbl file here:
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Track Changes:
+% To add words, \added{<word added>}
+% To delete words, \deleted{<word deleted>}
+% To replace words, \replace{<word to be replaced>}{<replacement word>}
+% To explain why change was made: \explain{<explanation>} This will put
+% a comment into the right margin.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% At the end of the document, use \listofchanges, which will list the
+% changes and the page and line number where the change was made.
+
+% When final version, \listofchanges will not produce anything,
+% \added{<word or words>} word will be printed, \deleted{<word or words} will take away the word,
+% \replaced{<delete this word>}{<replace with this word>} will print only the replacement word.
+%  In the final version, \explain will not print anything.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%
+\listofchanges
+%%%
+
+\bibliography{/Users/zlabe/documents/library}
+
+\newpage
+\begin{figure}
+\includegraphics[width=1.1\textwidth]{/Users/zlabe/Desktop/INTPART/Figures/Fig1.png}\\
+\caption{Seasonal cycle of daily sea ice extent (SIE) in the Greenland Sea from 1978 to 2017. The (line) color gradient shows older (purple) to more recent years (yellow). 2017 is shown in red, and the 1981 to 2010 mean is in black. The subplot indicates SIE during May with vertical lines highlighting the period of the R/V \textit{Lance} cruise. SIE is computed from sea ice concentration with grid cells of at least 15\% coverage.}\label{fig:1}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1.1\textwidth]{/Users/zlabe/Desktop/INTPART/Figures/Fig2.png}\\
+\caption{Sea ice concentration (SIC) measured from personal observations during the R/V \textit{Lance} field cruise (19-23 May 2017) shown by scatter points. The ship track is indicated by the yellow line (northwest of Svalbard). Color gradient of filled contours show SIC from AMSR2 ASI-3k averaged over 19 to 23 May 2017.}\label{fig:2}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1.1\textwidth]{/Users/zlabe/Desktop/INTPART/Figures/Fig3.png}\\
+\caption{Same as Fig. \ref{fig:1} (different color bar), but only for the R/V \textit{Lance} in situ observations. The ship track is shown in black. The upper right subplot provides a closer view of observations during periods of R/V \textit{Lance} drift. The lower left subplot shows the SIC observations as a continuous time series.}\label{fig:3}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1.1\textwidth]{/Users/zlabe/Desktop/INTPART/Figures/Fig4.png}\\
+\caption{Same as Fig. \ref{fig:1}, but separated by days from 19 to 23 May 2017. AMSR2 ASI-3k data also shown for each day.}\label{fig:4}
+\end{figure}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Supporting Information
+%% (Optional) See AGUSuppInfoSamp.tex/pdf for requirements 
+%% for Supporting Information.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%More Information and Advice:
+
+%% ------------------------------------------------------------------------ %%
+%
+%  SECTION HEADS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Capitalize the first letter of each word (except for
+% prepositions, conjunctions, and articles that are
+% three or fewer letters).
+
+% AGU follows standard outline style; therefore, there cannot be a section 1 without
+% a section 2, or a section 2.3.1 without a section 2.3.2.
+% Please make sure your section numbers are balanced.
+% ---------------
+% Level 1 head
+%
+% Use the \section{} command to identify level 1 heads;
+% type the appropriate head wording between the curly
+% brackets, as shown below.
+%
+%An example:
+%\section{Level 1 Head: Introduction}
+%
+% ---------------
+% Level 2 head
+%
+% Use the \subsection{} command to identify level 2 heads.
+%An example:
+%\subsection{Level 2 Head}
+%
+% ---------------
+% Level 3 head
+%
+% Use the \subsubsection{} command to identify level 3 heads
+%An example:
+%\subsubsection{Level 3 Head}
+%
+%---------------
+% Level 4 head
+%
+% Use the \subsubsubsection{} command to identify level 3 heads
+% An example:
+%\subsubsubsection{Level 4 Head} An example.
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  IN-TEXT LISTS
+%
+%% ------------------------------------------------------------------------ %%
+%
+% Do not use bulleted lists; enumerated lists are okay.
+% \begin{enumerate}
+% \item
+% \item
+% \item
+% \end{enumerate}
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATIONS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Single-line equations are centered.
+% Equation arrays will appear left-aligned.
+
+%Math coded inside display math mode \[ ...\]
+% will not be numbered, e.g.,:
+% \[ x^2=y^2 + z^2\]
+%
+% Math coded inside \begin{equation} and \end{equation} will
+% be automatically numbered, e.g.,:
+% \begin{equation}
+% x^2=y^2 + z^2
+% \end{equation}
+
+
+% To create multiline equations, use the
+% \begin{eqnarray} and \end{eqnarray} environment
+% as demonstrated below.
+%\begin{eqnarray}
+%  x_{1} & = & (x - x_{0}) \cos \Theta \nonumber \\
+%        && + (y - y_{0}) \sin \Theta  \nonumber \\
+%  y_{1} & = & -(x - x_{0}) \sin \Theta \nonumber \\
+%        && + (y - y_{0}) \cos \Theta.
+%\end{eqnarray}
+
+%If you don't want an equation number, use the star form:
+%\begin{eqnarray*}...\end{eqnarray*}
+
+% Break each line at a sign of operation
+% (+, -, etc.) if possible, with the sign of operation
+% on the new line.
+
+% Indent second and subsequent lines to align with
+% the first character following the equal sign on the
+% first line.
+
+% Use an \hspace{} command to insert horizontal space
+% into your equation if necessary. Place an appropriate
+% unit of measure between the curly braces, e.g.
+% \hspace{1in}; you may have to experiment to achieve
+% the correct amount of space.
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATION NUMBERING: COUNTER
+%
+%% ------------------------------------------------------------------------ %%
+
+% You may change equation numbering by resetting
+% the equation counter or by explicitly numbering
+% an equation.
+
+% To explicitly number an equation, type \eqnum{}
+% (with the desired number between the brackets)
+% after the \begin{equation} or \begin{eqnarray}
+% command.  The \eqnum{} command will affect only
+% the equation it appears with; LaTeX will number
+% any equations appearing later in the manuscript
+% according to the equation counter.
+%
+
+% If you have a multiline equation that needs only
+% one equation number, use a \nonumber command in
+% front of the double backslashes (\\) as shown in
+% the multiline equation above.
+
+% If you are using line numbers, remember to surround
+% equations with \begin{linenomath*}...\end{linenomath*}
+
+%  To add line numbers to lines in equations:
+%  \begin{linenomath*}
+%  \begin{equation}
+%  \end{equation}
+%  \end{linenomath*}
+
+
+
