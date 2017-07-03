@@ -1,7 +1,7 @@
 # INTPART Arctic Field Summer School (UiT)
 Norway-Canada-USA collaboration (NFR project 261786/H30)
 
-##### Under construction... ```[Python 2.7]```
+##### ```[Python 2.7]```
 
 ## Contact
 Zachary Labe - [Research Website](http://sites.uci.edu/zlabe/) - [@ZLabe](https://twitter.com/ZLabe)
@@ -21,8 +21,8 @@ Fetterer, F., K. Knowles, W. Meier, M. Savoie, and A. Windnagel. 2016, updated d
 
 Kaleschke, L. and X. Tian-Kunze (2016), "AMSR2 ASI 3.125 km Sea Ice Concentration Data, 
 V0.1", Institute of Oceanography, University of Hamburg, Germany, digital media 
-(ftp-projects.zmaw.de/seaice/), [20/06/2017 - END DAY/MONTH/YEAR].
+(ftp-projects.zmaw.de/seaice/), [18/05/2017 - 24/05/2017].
 
 ## Publications
 #### In Preparation 
-+ **Labe, Z.M.**, Validation of sea ice concentration observations in the Fram Strait marginal ice zone during May 2017, *drafting*
++ **Labe, Z.M.**, Validation of sea ice concentration observations in the Fram Strait marginal ice zone during May 2017, *draft*
